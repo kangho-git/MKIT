@@ -3,23 +3,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>MKIT</title>
-	
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap">
-	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+	<jsp:include page="./inc/head.jsp"/>
 	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
-
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/js/main.js" defer>
 </head>
 <body>
 	
@@ -171,7 +157,7 @@
 						</div>
 					</div>
 					<div class="item2">
-						<a href="./services.jsp">
+						<a href="./services.jsp#section1">
 							<p class="link">
 								Learn more
 							</p>
@@ -203,7 +189,7 @@
 						</div>
 					</div>
 					<div class="item2">
-						<a>
+						<a href="./services.jsp#section2">
 							<p class="link">
 								Learn more
 							</p>
@@ -234,7 +220,7 @@
 						</div>
 					</div>
 					<div class="item2">
-						<a>
+						<a href="./services.jsp#section3">
 							<p class="link">
 								Learn more
 							</p>
@@ -265,7 +251,7 @@
 						</div>
 					</div>
 					<div class="item2">
-						<a>
+						<a href="./services.jsp#section4">
 							<p class="link">
 								Learn more
 							</p>
@@ -276,27 +262,6 @@
 			</div>
 		</div>
 	</div>
-				<!--<a class="item-link" href="#">
-					<div class="item-box">
-						<div class="item1">
-							<div class="icon">
-								<img src="assets/images/icon_example.png" alt="Ideation and evaluation" style="width: 40px; height: 40px;">
-							</div>
-							<h6 class="subtitle">
-								Ideation and evaluation
-							</h6>
-							<p class="common-typography">
-								The discovery phase is the key to long-term success. Together, we will define targets and your needs. The result is a clearly defined strategy.
-							</p>
-						</div>
-						<div class="item2">
-							<p class="common-typography">
-								Find out more
-							</p>
-							<img>
-						</div>
-					</div>
-				</a>-->
 	<!-- main services end -->
 	
 	<!-- main development cycle -->

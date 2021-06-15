@@ -35,10 +35,27 @@
 		$(function() {
 			$(window).on("scroll", function() {
 				if($(window).scrollTop() > 50) {
-					$("header").addClass("active");
+					$("header").addClass("actived");
 				} else {
-					$("header").removeClass("active");
+					$("header").removeClass("actived");
 				}
 			});
 		});
+
+		$(function() {
+			  var w = $(window).width(),
+			    h = $(window).height();
+			  //$('section').width(w);
+			  $('body').prepend('<div id="overlay">');
+
+			  $('#menu').click(function() {$('html').addClass('active');});
+			  $('#close-menu').click(function() {$('html').removeClass('active');});
+			  $('#overlay').click(function() {$('html').removeClass('active');});
+			  $(window).resize(function() {
+			    var w = $(window).width(),
+			      h = $(window).height();
+			    //$('section').width(w);
+			  });
+
+			});
 	</script>

@@ -3,19 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>MKIT</title>
-
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap">
-	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/js/main.js" defer>
+	<jsp:include page="./inc/head.jsp"/>
 </head>
 <body>
 	<!-- header -->
@@ -51,7 +39,7 @@
 	</div>
 	<!-- main banner end -->
 
-	<div class="service-container container">
+	<div class="service-container container" id="section1">
 		<div class="subtitle-line">
 			<h6 class="subtitle">
 				Static Website Development
@@ -96,7 +84,7 @@
 		</div>
 	</div>
 
-	<div class="service-container container">
+	<div class="service-container container" id="section2">
 		<div class="subtitle-line">
 			<h6 class="subtitle">
 				Web App Development
@@ -158,7 +146,7 @@
 		</div>
 	</div>
 
-	<div class="service-container container">
+	<div class="service-container container" id="section3">
 		<div class="subtitle-line">
 			<h6 class="subtitle">
 				Mobile App Development
@@ -203,7 +191,7 @@
 		</div>
 	</div>
 
-	<div class="service-container container">
+	<div class="service-container container" id="section4">
 		<div class="subtitle-line">
 			<h6 class="subtitle">
 				Active Support

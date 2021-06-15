@@ -5,7 +5,7 @@
 	<div class="inner container">
 		<a href="./index.jsp" class="logo">
 			<img src="assets/images/main_logo.png" alt="MKIT">
-		</a>
+		</a> 
 		<div class="content">
 			<a href="./career.jsp">
 				<span>Career</span>
@@ -44,9 +44,44 @@
 				<span>Get In Touch</span>
 			</a>
 		</div>
-		<a class="mobile-button material-icons" href="#">
+		<span id="menu" class="mobile-button material-icons">
 			menu
-		</a>
+		</span>
 	</div>
 </header>
+<menu>
+	<div class="close-line">
+		<span id="close-menu" class="material-icons close-button">close</span>
+	</div>
+	<ul class="contents">
+		<li>
+			<a class="content">
+				<div class="text">Services</div>
+			</a>
+		</li>
+		<li>
+			<a class="content">
+				<div class="text">Expertise</div>
+			</a>
+		</li>
+		<li>
+			<a class="content">
+				<div class="text">Our Goals</div>
+			</a>
+		</li>
+		<li>
+			<a class="content">
+				<div class="text">Company</div>
+			</a>
+		</li>
+	</ul>
+	<hr class="line">
+	<ul class="contents">
+		<li>
+			<a class="content">
+				<div class="text">Career</div>
+			</a>		
+		</li>
+	</ul>
+</menu>
 <!-- header end -->

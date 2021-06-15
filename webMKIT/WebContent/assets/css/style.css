@@ -66,7 +66,7 @@ form {
 
 .common-main-p {
 	color: #212121;
-	font-size: 24px;
+	font-size: 18px;
     line-height: 24px;
 	max-width: 580px;
 	text-align: center;
@@ -106,6 +106,14 @@ form {
 	.main-container {
 		margin-bottom: 135px;
 	}
+
+	.common-h1 {
+		font-size: 36px;
+	}
+	
+	.common-main-p {
+		font-size: 24px;
+	}
 }
 
 .container {
@@ -119,7 +127,7 @@ header {
 	background-color: #fff;
 }
 
-.active {
+.actived {
 	transition: .5s;
 	box-shadow: 0px 8px 22px -6px rgb(24 39 75 / 12%), 0px 14px 64px -4px rgb(24 39 75 / 12%);
 }
@@ -224,6 +232,101 @@ header .inner .link a:hover{
 	header .inner .link {	
 		display: none;
 	}
+}
+
+#overlay {
+	background: #000;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	overflow: hidden;
+	position: fixed;
+	right: 0;
+	top: 0;
+	visibility: hidden;
+	width: 100%;
+	z-index: 99;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;	
+}
+
+html.active #overlay {
+	opacity: .65;
+	visibility: visible;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+html.active,
+html.active body {
+	overflow: hidden;
+}
+
+menu {
+	color: #fff;
+	background-color: #1270ff;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	position: fixed;
+	right: -320px;
+	top: 0;
+	width: 320px;
+	z-index: 1031;
+	display: flex;
+	flex-direction: column;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+html.active menu {
+  right: 0;
+}
+
+
+menu .contents {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	list-style: none;
+	display: block;
+}
+
+menu .contents .line {
+	margin: 16px 0;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.12);
+}
+
+menu .contents .content {
+	padding: 20px 28px;
+	width: 100%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+menu .contents .content .text {
+	color: #fff;
+}
+
+.close-line {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+
+.close-button {
+	padding: 8px;
 }
 
 /*---------- main banner ----------*/
@@ -868,7 +971,7 @@ footer img {
 /*---------- services ----------*/
 
 .service-container {
-	margin-bottom: 80px;
+	padding-top: 90px;
 }
 
 .service-banner {
