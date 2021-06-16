@@ -367,7 +367,7 @@
 				<span class="underline">your brilliant idea</span>
 			</span>
 		</h1>
-		<form class="form1">
+		<form class="form1" method="post" action="mailSend.jsp">
 			<div class="contents flex-container">
 				<div class="content col-12 col-md-6">
 					<div class="cell">
@@ -375,7 +375,7 @@
 							Your Name
 						</label>
 						<div class="input-base">
-							<input class="input-text" placeholder="Name">
+							<input class="input-text" placeholder="Name" type="text" name="name">
 						</div>
 						<p></p>
 					</div>
@@ -384,7 +384,7 @@
 							Phone
 						</label>
 						<div class="input-base">
-							<input class="input-text" placeholder="Your phone number">
+							<input class="input-text" placeholder="Your phone number" type="text" name="phone">
 						</div>
 						<p></p>
 					</div>
@@ -395,7 +395,7 @@
 							Your Email
 						</label>
 						<div class="input-base">
-							<input class="input-text" placeholder="Email">
+							<input class="input-text" placeholder="Email" type="text" name="email">
 						</div>
 						<p></p>
 					</div>
@@ -404,7 +404,7 @@
 							Attach files
 						</label>
 						<div class="input-base">
-							<input class="input-text" placeholder="Select your files">
+							<input class="input-text" placeholder="Select your files" type="text" name="">
 						</div>
 						<p></p>
 					</div>
@@ -414,7 +414,7 @@
 				<div class="box">
 					<label class="input-label">Message/Question</label>
 					<div class="input-base">
-						<textarea class="input-text multi-line" placeholder="Write your message"></textarea>
+						<textarea class="input-text multi-line" placeholder="Write your message" name="content"></textarea>
 					</div>
 					<p></p>
 				</div>
@@ -434,15 +434,9 @@
 					</div>
 				</div>
 			</div>
+			<input type="hidden" name="to" value="k4k3h23@gmail.com"/>
 			<div class="submit">
-				<button class="box" type="button">
-					<span>
-						<span>
-							SEND MESSAGE
-						</span>
-					</span>
-					<span class="touch"></span>
-				</button>
+				<input class="box" type="submit" value="SEND MESSAGE"/>
 			</div>
 		</form>
 	</div>

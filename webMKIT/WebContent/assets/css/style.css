@@ -746,7 +746,7 @@ menu .contents .content .text {
     min-width: 0;
     flex-direction: column;
     vertical-align: top;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .form1 .contents .content .cell {

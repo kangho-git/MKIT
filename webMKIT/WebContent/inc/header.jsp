@@ -55,22 +55,22 @@
 	</div>
 	<ul class="contents">
 		<li>
-			<a class="content">
+			<a class="content" href="./services.jsp">
 				<div class="text">Services</div>
 			</a>
 		</li>
 		<li>
-			<a class="content">
+			<a class="content" href="./expertise.jsp">
 				<div class="text">Expertise</div>
 			</a>
 		</li>
 		<li>
-			<a class="content">
+			<a class="content" href="./goals.jsp">
 				<div class="text">Our Goals</div>
 			</a>
 		</li>
 		<li>
-			<a class="content">
+			<a class="content" href="./company.jsp">
 				<div class="text">Company</div>
 			</a>
 		</li>
@@ -78,9 +78,9 @@
 	<hr class="line">
 	<ul class="contents">
 		<li>
-			<a class="content">
+			<a class="content" href="./career.jsp">
 				<div class="text">Career</div>
-			</a>		
+			</a>
 		</li>
 	</ul>
 </menu>
